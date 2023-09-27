@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Fields Ministries - Membership Form</title>
+  <link rel="stylesheet" type="text/css" href="membership.css">
+  <link rel="icon" href="NFM_Logo.jpg" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="home-logo">
+      <img src="NFM_Logo.jpg" alt="Logo">
+      <h1>New Fields Ministries</h1>
+    </div>
+ 
+  
+  </header>
+
+  <main>
+    <h1>Membership Form</h1>
+    <form action="member-registration.php" method="post">
+      
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="kin-contact">Next of Kin Contact:</label>
+        <input type="tel" id="kin-contact" name="kin-contact" required>
+      </div>
+      <div class="form-group">
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+      </div>
+      <div class="form-group">
+        <label for="baptised">Are you Baptized?</label>
+        <select id="baptised" name="baptised" required>
+          <option value=""></option>
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="local-church">Local Church Name:</label>
+        <input type="text" id="local-church" name="local-church" required>
+      </div>
+      <div class="form-group">
+        <label for="elder-contact">Local Elder's Contact:</label>
+        <input type="tel" id="elder-contact" name="elder-contact" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <blockquote class="quote">
+      <p>"The missionary spirit needs to be revived in every heart, and the love of Christ must be the moving principle of every labor." - Ellen G. White</p>
+    </blockquote>
+    <a href="index.html" class="home-link">Home Page</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 New Fields Ministries. All rights reserved.</p>
+  </footer>
+  <script src="Members.js"></script>
+</body>
+</html>

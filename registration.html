@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Fields Ministries - Camp Registration</title>
+  <link rel="stylesheet" type="text/css" href="registration.css">
+  <link rel="icon" href="NFM_Logo.jpg" type="image/png">
+</head>
+<body>
+  <div class="header">
+    <img src="NFM_Logo.jpg" alt="Logo">
+    <h1>New Fields Ministries</h1>
+  </div>
+  <div class="registration-form">
+    <h2>NFM Camp Registration</h2>
+    <form action="camp-registration.php" method="post">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="message">What are your expectations?</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="allergies">Do you have any allergies and/or need special medication?</label>
+        <textarea id="allergies" name="allergies"></textarea>
+      </div>
+      
+      <br><br>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <a href="index.html" class="home-link">Home Page</a>
+  <script src="campregistration.js"></script>
+  <!-- Ellen G. White Quote -->
+  <div class="quote-container">
+    <blockquote class="quote">
+      <p>"The work of God in this earth can never be finished until the men and women comprising our church membership rally to the work and unite their efforts with those of ministers and church officers." - Ellen G. White</p>
+    </blockquote>
+  </div>
+</body>
+</html>

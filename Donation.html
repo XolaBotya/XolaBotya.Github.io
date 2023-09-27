@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to NewFields Ministries</title>
+    <link rel="stylesheet" type="text/css" href="Donation.css">
+    <link rel="icon" href="NFM_Logo.jpg" type="image">
+</head>
+<body>
+    <header>
+        <h1>Donate to NewFields Ministries</h1>
+    </header>
+
+    <section>
+        <h2>Donation Information</h2>
+        <form action=" https://www.payfast.co.za/eng/process" method="post">
+            <label for="amount">Donation Amount </label>
+            <input type="number" id="amount" name="amount" step="0.01" required>
+            
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message (Optional)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <input type="hidden" name="merchant_id" value="16425469">
+            <input type="hidden" name="merchant_key" value="ibgtrpu86qaj7">
+            <input type="hidden" name="return_url" value="http://newfields.co.za/" >
+            <input type="hidden" name="cancel_url" value="http://newfields.co.za/" >
+            <input type="hidden" name="notify_url" value="http://newfields.co.za/" >
+
+   
+   <input type="hidden" name="item_name" value="Test Product">
+   <button type="submit">Donate Now</button>
+            
+        </form>
+<br>
+        <a href="index.html" >HOME </a>
+
+    </section>
+
+    <footer>
+        <p>Thank you for supporting NewFields Ministries!</p>
+    </footer>
+</body>
+</html>

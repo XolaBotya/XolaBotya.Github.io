@@ -1,0 +1,501 @@
+/* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    padding-top: 200px;
+    margin-left: 50px; /* Add margin to move everything to the left */
+    margin-right: 20px; /* Add margin to move everything to the left */
+  }
+
+  h1, h2 {
+    color: #176881;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Add this line to make the header fixed */
+    top: 0; /* Stick the header to the top of the page */
+    left: 0;
+    right: 0;
+    z-index: 999; /* Add a high z-index to ensure the header stays on top of other elements */
+  }
+  
+  
+  .home-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .home-logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #a51515;
+  }
+  
+  main {
+    padding: 40px;
+    margin-top: 80px; /* Add margin-top to push content below the fixed header */
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Custom Styles */
+  /* ... (existing styles) ... */
+  
+  
+  /* Custom Styles */
+  #about-advert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #about-advert h2 {
+    color: #176881;
+  }
+  
+  .about-content {
+    width: 47%;
+    padding-left: 5px ;
+  }
+  
+  .about-content p {
+    margin-bottom: 10px;
+    padding-left: 10px ;
+  }
+  
+  .advert {
+    width: 48%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .advert h2 {
+    color: #176881;
+  }
+  
+  .advert p {
+    margin-bottom: 20px;
+  }
+  
+  .advert .camp-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .advert .camp-image img {
+    max-width: 100%;
+    height: auto;
+    animation: floatAnimation 5s infinite; /* Apply the floatAnimation to the Camp image */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .advert .camp-image img:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+  }
+  
+  .message-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-box img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .message-box .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .message-box .name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #176881;
+  }
+  
+  .message-box .title {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  /* Add this to your existing custom CSS or create a new section for custom styles */
+/* ... (existing styles) ... */
+
+/* Donation Box Styles */
+.donation-box {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px; /* Add some space between the donation box and the previous section */
+  }
+  
+  /* ... (existing styles) ... */
+  
+  
+/* General Styles */
+/* ... (existing styles) ... */
+
+/* Custom Styles */
+/* ... (existing styles) ... */
+
+/* Missionary Camp Advert Styles */
+/* ... (existing styles) ... */
+
+/* President's Message Styles */
+#president {
+    margin-top: 40px;
+  }
+  
+  #president h2 {
+    color: #176881;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  #president .message-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #president img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  #president .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #president h3 {
+    font-size: 24px;
+    color: #176881;
+    margin-bottom: 10px;
+  }
+  
+  #president p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 5px; /* Adjusted paragraph spacing */
+  }
+  
+  #president blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin: 15px 0;
+    padding-left: 20px;
+    border-left: 2px solid #176881;
+  }
+  
+  #president .signature {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  #president .name {
+    font-weight: bold;
+    color: #176881;
+  }
+  
+  #president .title {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Sponsor Pastor's Message Styles */
+  #sponsor-pastor {
+    margin-top: 40px;
+  }
+  
+  #sponsor-pastor h2 {
+    color: #176881;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  #sponsor-pastor .message-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #sponsor-pastor img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  #sponsor-pastor .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #sponsor-pastor h3 {
+    font-size: 24px;
+    color: #176881;
+    margin-bottom: 10px;
+  }
+  
+  #sponsor-pastor p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px; /* Adjusted paragraph spacing */
+  }
+  
+  #sponsor-pastor blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin: 15px 0;
+    padding-left: 20px;
+    border-left: 2px solid #176881;
+  }
+  
+  #sponsor-pastor .signature {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  #sponsor-pastor .name {
+    font-weight: bold;
+    color: #176881;
+  }
+  
+  #sponsor-pastor .title {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #176881;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #114c5c;
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .about-content, .advert {
+      width: 100%;
+    }
+  }
+  
+  /* Animation Styles */
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  /* Slideshow Styles */
+./* ... (existing styles) ... */
+
+/* Custom Styles */
+/* ... (existing styles) ... */
+
+/* Missionary Camp Advert Styles */
+.advert {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .advert h2 {
+    color: #176881;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .advert p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden; /* Hide overflowing content */
+    border-radius: 6px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 400px; /* Set a fixed height for the slideshow images */
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    animation: fadeInOut 6s ease infinite; /* Apply a fade-in-out animation to the slides */
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    20%, 80% {
+      opacity: 1;
+    }
+  }
+  
+  /* Navigation Dot Styles */
+  .dot-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #176881;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #176881;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #114c5c;
+    transform: scale(1.05);
+  }
+   /* Add CSS styles for better positioning */
+   #contact {
+    text-align: center; /* Center-align the content within the section */
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;  Center-align items horizontally */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center; /* Center-align items horizontally */
+    margin: 10px 0; /* Add some vertical spacing between items */
+}
+
+.contact-item img {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px; /* Add some space between the image and text */
+    margin: 10px;
+  }
+  
